@@ -4,6 +4,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
+  base:"/react_food",
   daisyui: {
     themes: ["caramellette"], 
   },
