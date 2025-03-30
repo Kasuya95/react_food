@@ -1,13 +1,18 @@
 import React from "react";
-
+import chikbbq from "src/assets/BBQ/food/chikbbq.jpg";
+import spicy from "src/assets/BBQ/food/spicy.jpg";
+import pig from "src/assets/BBQ/food/pig.jpg";
+import pig2 from "src/assets/BBQ/food/pig2.jpg";
+import chick from "src/assets/BBQ/food/chick.jpg";
+import rice from "src/assets/BBQ/food/rice.jpg";
 
 const products = [
-  { id: 1, name: "บาบีคิวไก่", price: 10, img: "src/assets/BBQ/food/chikbbq.jpg" },
-  { id: 2, name: "บาบีคิวไก่ซอสเกาหลี", price: 10, img: "src/assets/BBQ/food/spicy.jpg" },
-  { id: 3, name: "บาบีคิวหมู", price: 10, img: "src/assets/BBQ/food/pig.jpg" },
-  { id: 4, name: "บาบีคิวหมูซอสเกาหลี", price: 10, img: "src/assets/BBQ/food/pig2.jpg" },
-  { id: 5, name: "เนื้อไก่ย่าง", price: 10, img: "src/assets/BBQ/food/chick.jpg" },
-  { id: 6, name: "ข้าวเหนียวขาว", price: 10, img: "src/assets/BBQ/food/rice.jpg" }
+  { id: 1, name: "บาบีคิวไก่", price: 10, img: chikbbq },
+  { id: 2, name: "บาบีคิวไก่ซอสเกาหลี", price: 10, img: spicy },
+  { id: 3, name: "บาบีคิวหมู", price: 10, img: pig },
+  { id: 4, name: "บาบีคิวหมูซอสเกาหลี", price: 10, img: pig2 },
+  { id: 5, name: "เนื้อไก่ย่าง", price: 10, img: chick },
+  { id: 6, name: "ข้าวเหนียวขาว", price: 10, img: rice }
 ];
 
 const ProductList = ({ addToCart }) => {
