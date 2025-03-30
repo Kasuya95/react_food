@@ -4,7 +4,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [tailwindcss(), react()],
-  base:"/react_food/",
+  server: {
+    port: 3000 // หรือ port อื่นๆ ที่ Render รองรับ
+  },
   daisyui: {
     themes: ["caramellette"], 
   },
